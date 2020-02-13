@@ -933,7 +933,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.20700002, y: 0.38200003}
   m_AnchorMax: {x: 0.77757996, y: 0.85181934}
-  m_AnchoredPosition: {x: -0.024986267, y: 0}
+  m_AnchoredPosition: {x: -0.024978638, y: 0}
   m_SizeDelta: {x: -0.050049, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858579691
@@ -954,7 +954,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sit-Sit (Or Point-Point) \nREVOLUTION"
+  m_text: 'Point-Point
+
+    REVOLUTION'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1023,10 +1025,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 1.7539995, w: 0}
   m_textInfo:
     textComponent: {fileID: 1858579691}
-    characterCount: 36
+    characterCount: 22
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 4
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 2
     pageCount: 1

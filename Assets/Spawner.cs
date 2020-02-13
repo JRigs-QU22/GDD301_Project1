@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject Red;
-    public GameObject Blue;
-    public GameObject Green;
-    public GameObject Yellow;
+    public GameObject Cube1;
+    public GameObject Cube2;
+    public GameObject Cube3;
+    public GameObject Cube4;
     int randoPrefab;
     public float speed = 8f; 
     float leftRightEdges = 7.5f; 
@@ -54,22 +54,22 @@ public class Spawner : MonoBehaviour
         randoPrefab = Random.Range(0, 4);
         if (randoPrefab == 0)
         {
-            GameObject red = Instantiate(Red) as GameObject;
+            GameObject red = Instantiate(Cube1) as GameObject;
             red.transform.position = transform.position;
         }
         else if (randoPrefab == 1)
         {
-            GameObject blue = Instantiate(Blue) as GameObject;
+            GameObject blue = Instantiate(Cube2) as GameObject;
             blue.transform.position = transform.position;
         }
         else if (randoPrefab == 2)
         {
-            GameObject green = Instantiate(Green) as GameObject;
+            GameObject green = Instantiate(Cube3) as GameObject;
             green.transform.position = transform.position;
         }
         else if (randoPrefab == 3)
         {
-            GameObject yellow = Instantiate(Yellow) as GameObject;
+            GameObject yellow = Instantiate(Cube4) as GameObject;
             yellow.transform.position = transform.position;
         }
     }

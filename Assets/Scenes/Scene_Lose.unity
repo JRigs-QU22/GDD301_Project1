@@ -914,7 +914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU LOSE!
+  m_Text: PLAYER 1 LOSES!
 --- !u!222 &1721210156
 CanvasRenderer:
   m_ObjectHideFlags: 0
