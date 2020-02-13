@@ -234,8 +234,8 @@ MonoBehaviour:
   Cube2: {fileID: 7305396433100804845, guid: 530a1efb6e3709948a8cb3a0b617412e, type: 3}
   Cube3: {fileID: 292818690065022527, guid: f09cfdf428740614d897acee8e92cc70, type: 3}
   Cube4: {fileID: 7265230871447741438, guid: 81078d9cd44093043b3f64cc7ac5e90e, type: 3}
-  speed: 8
-  secsBetweenLaunch: 0.5
+  speed: 7
+  secsBetweenLaunch: 1
 --- !u!212 &363094177
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1019,8 +1019,8 @@ MonoBehaviour:
   Cube2: {fileID: 8896634782876243495, guid: 6da463e06983b854d93a49954efb1adc, type: 3}
   Cube3: {fileID: 1346736712753019878, guid: b0a7a8695a835a842919a4e9be1b00f2, type: 3}
   Cube4: {fileID: 7437818652759269365, guid: 5e8f7e3df8e48eb43b50a83658136827, type: 3}
-  speed: 8
-  secsBetweenLaunch: 0.5
+  speed: 7
+  secsBetweenLaunch: 1
 --- !u!212 &1596950175
 SpriteRenderer:
   m_ObjectHideFlags: 0
